@@ -30,3 +30,8 @@ alias exegol='sudo -E /home/debrunbaix/.local/bin/exegol'
 eval "$(zoxide init zsh)"
 export EDITOR="nvim"
 export PATH=$PATH:/home/debrunbaix/.venv/bin
+export PATH=/home/debrunbaix/.local/share/gem/ruby/3.4.0/bin:/home/debrunbaix/.local/share/gem/ruby/3.4.0/bin:/home/debrunbaix/.cargo/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/debrunbaix/.local/bin:/home/debrunbaix/.venv/bin:/home/debrunbaix/.local/bin:/home/debrunbaix/.venv/bin
+export JAVA_HOME=/usr/lib/jvm/jdk-24.0.1-oracle-x64
+export PATH=$JAVA_HOME/bin:$PATH
+
+fpath+=${ZDOTDIR:-~}/.zsh_functions

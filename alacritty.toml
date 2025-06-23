@@ -1,0 +1,15 @@
+[colors.primary]
+background = "#000000"
+
+[font]
+size = 18.0
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[window]
+startup_mode = "Fullscreen"
+
+[terminal]
+shell = "/bin/zsh"
