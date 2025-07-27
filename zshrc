@@ -35,3 +35,4 @@ export JAVA_HOME=/usr/lib/jvm/jdk-24.0.1-oracle-x64
 export PATH=$JAVA_HOME/bin:$PATH
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
