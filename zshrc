@@ -13,15 +13,12 @@ source $ZSH/oh-my-zsh.sh
 # -- ALIAS --
 alias python="/usr/bin/python3"
 alias e="exit"
-alias maj="sudo pacman -Yuo"
 alias ipa="ip -br -c a"
 alias install="sudo pacman -S"
 alias r2="radare2"
 alias bat="batcat"
 alias v="nvim"
 alias y="yazi"
-alias pwnc="ssh -i /home/debrunbaix/.ssh/id_ed25519 hacker@pwn.college"
-alias l="lsd"
 
 # -- EXEGOL --
 export PATH="$PATH:/home/debrunbaix/.local/bin"
@@ -36,3 +33,5 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
+
+tmux
