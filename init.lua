@@ -28,6 +28,7 @@ vim.pack.add({
 	{ src = 'https://github.com/neovim/nvim-lspconfig' },
 	{ src = 'https://github.com/mason-org/mason.nvim' },
 	{ src = 'https://github.com/echasnovski/mini.pick' },
+	{ src = 'https://github.com/chomosuke/typst-preview.nvim' },
 })
 
 -- COLORSCHEME --
@@ -70,9 +71,50 @@ vim.lsp.config('lua_ls', {
 -- Pyright
 vim.lsp.enable('pyright')
 
+-- clangd
+vim.lsp.enable('clangd')
+
+-- asm-lsp
+vim.lsp.enable('asm-lsp')
+vim.lsp.config('asm-lsp', {})
+
+-- typst --
+vim.lsp.enable('tinymist')
+
 -- PICK --
 
 require('mini.pick').setup()
 
 keymap('n', '<leader>f', ':Pick files<CR>')
 keymap('n', '<leader>h', ':Pick help<CR>')
+
+-- diag
+vim.diagnostic.config({
+	virtual_test = true,
+	signs = true,
+	update_in_insert = false,
+})
+
+local signs = { Error = "", Warn = "", Hint = "", Info = "" }
+
+for type, icon in pairs(signs) do
+	local hl = "DiagnosticSign" .. type
+	vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
+end
+
+-- spell
+
+vim.api.nvim_create_autocmd("Filetype", {
+	pattern = "typst",
+	callback = function()
+		vim.opt.spell = true
+		vim.opt.wrap = true
+		vim.opt.linebreak = true
+		vim.opt.wrapmargin = 10
+		vim.cmd([[
+				setlocal formatoptions+=1
+				setlocal spell spelllang=fr
+				]])
+		keymap('n', '<leader>p', ':TypstPreview<CR>')
+	end,
+})
