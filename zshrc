@@ -34,4 +34,4 @@ export PATH=$JAVA_HOME/bin:$PATH
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
 
-tmux
+export PATH="$HOME/my_prog:$PATH"

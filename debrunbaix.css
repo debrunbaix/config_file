@@ -1,0 +1,160 @@
+/* @theme custom */
+@import 'default';
+
+section {
+    background: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/* Titre principale */
+h1 {
+    color: #C57979;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* titre de Slides */
+h2 {
+    color: #C57979;
+    font-size: 2em;
+}
+
+/* Sous-titre */
+h3 {
+    color: #757575;
+    font-size: 1em;
+    text-align: right;
+}
+
+p, li {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+code {
+    background: #0A0A0A;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 2px solid #C57979;
+}
+
+pre {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #C57979;
+}
+
+/* Numéro de page */
+section::after {
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 0.8em;
+    color: #888888;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.columns > * {
+    margin: 0;
+}
+
+.columns pre {
+    margin: 0;
+}
+
+.columns code {
+    font-size: 1.2em;
+}
+
+/* Coloration syntaxique pour fond sombre */
+pre code {
+    color: #e0e0e0;
+}
+
+pre code .hljs-keyword {
+    color: #ff79c6;
+}
+
+pre code .hljs-type {
+    color: #8be9fd;
+}
+
+pre code .hljs-built_in,
+pre code .hljs-function {
+    color: #50fa7b;
+}
+
+pre code .hljs-string {
+    color: #f1fa8c;
+}
+
+pre code .hljs-number {
+    color: #bd93f9;
+}
+
+pre code .hljs-comment {
+    color: #6272a4;
+    font-style: italic;
+}
+
+pre code .hljs-meta {
+    color: #ff6e67;
+}
+
+pre code .hljs-operator,
+pre code .hljs-punctuation {
+    color: #f8f8f2;
+}
+
+/* Style des puces de liste */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "○ ";
+    color: #C57979;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style des tableaux */
+table {
+    background: #0A0A0A;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th {
+    background: #1a1a1a;
+    color: #C57979;
+    padding: 12px;
+    text-align: left;
+    border: 2px solid #C57979;
+    font-size: 1.3em;
+}
+
+td {
+    background: #121212;
+    color: #e0e0e0;
+    padding: 12px;
+    border: 1px solid #333333;
+    font-size: 1.2em;
+}
