@@ -4,7 +4,7 @@ import = ["~/config_file/color/vague.toml"]
 # background = "#000000"
 
 [font]
-size = 18.0
+size = 14.0
 #normal = { family = "FiraCode" }
 
 [cursor.style]

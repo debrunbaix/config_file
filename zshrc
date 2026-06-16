@@ -36,3 +36,4 @@ export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
 
 export PATH="$HOME/my_prog:$PATH"
 export PWNLIB_GDB=pwndbg
+export PATH="$PATH:$HOME/ghidra/ghidra_12.1.2_PUBLIC"
