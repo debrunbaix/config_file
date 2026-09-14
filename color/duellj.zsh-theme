@@ -31,10 +31,10 @@ BRIGHT_WHITE='%{$fg_bold[white]%}'
 # GIT
 # ===
 
-ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]($FG[078]"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
-ZSH_THEME_GIT_PROMPT_DIRTY="$my_orange*%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[075])%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%}*%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" ${CYAN}git:(${RED}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="${CYAN})${RESET}"
 
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%} ✈"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%} ✭"
@@ -46,13 +46,13 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[grey]%} ✱"
 git_prompt_info() {
   local ref
   ref=$(git symbolic-ref HEAD 2>/dev/null) || ref=$(git rev-parse --short HEAD 2>/dev/null) || return
-  echo "${ZSH_THEME_GIT_PROMPT_PREFIX}${ref#refs/heads/}$(git_dirty)${ZSH_THEME_GIT_PROMPT_SUFFIX}"
+  echo "${(e)ZSH_THEME_GIT_PROMPT_PREFIX}${ref#refs/heads/}$(git_dirty)${(e)ZSH_THEME_GIT_PROMPT_SUFFIX}"
 }
 
 git_dirty() {
   git diff --quiet --ignore-submodules HEAD 2>/dev/null
   if [[ $? -eq 1 ]]; then
-    echo "$ZSH_THEME_GIT_PROMPT_DIRTY"
+    echo "${(e)ZSH_THEME_GIT_PROMPT_DIRTY}"
   else
     echo "$ZSH_THEME_GIT_PROMPT_CLEAN"
   fi
