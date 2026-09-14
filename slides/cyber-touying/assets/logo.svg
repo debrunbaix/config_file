@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 40" width="128" height="40">
+  <g fill="none" stroke="#FF4D4D" stroke-width="2.2">
+    <path d="M14 5 L25 9 V21 C25 28 20 33 14 35 C8 33 3 28 3 21 V9 Z"/>
+  </g>
+  <path d="M9.5 19.5 L13 23 L19 15" fill="none" stroke="#35D07F" stroke-width="2.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="34" y="19" font-family="DejaVu Sans, Helvetica, sans-serif" font-size="13"
+        font-weight="bold" fill="#E8EEF4" letter-spacing="0.5">SEC</text>
+  <text x="34" y="32" font-family="DejaVu Sans, Helvetica, sans-serif" font-size="8"
+        fill="#8A97A6" letter-spacing="2.2">OPS TEAM</text>
+</svg>

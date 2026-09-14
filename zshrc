@@ -1,11 +1,10 @@
 # -- OH MY ZSH --
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="simple"
+#ZSH_THEME="simple"
+ZSH_THEME="duellj"
 
 # -- PLUGINS --
-plugins=(
-  git
-)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 # -- activate OMZ --
 source $ZSH/oh-my-zsh.sh
@@ -37,3 +36,5 @@ export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
 export PATH="$HOME/my_prog:$PATH"
 export PWNLIB_GDB=pwndbg
 export PATH="$PATH:$HOME/ghidra/ghidra_12.1.2_PUBLIC"
+alias arcadia-connect='ssh -i /home/songbird/.ssh/arcadia-runner albat0r@90.79.90.58'
+

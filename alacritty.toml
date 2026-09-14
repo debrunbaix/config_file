@@ -12,8 +12,8 @@ shape = "Beam"
 blinking = "On"
 
 [window]
-startup_mode = "Fullscreen"
-#opacity = 0.5
+#startup_mode = "Fullscreen"
+opacity = 0.4
 
 [terminal]
 shell = "/bin/zsh"

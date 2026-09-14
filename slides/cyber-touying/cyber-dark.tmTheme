@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Cyber Dark</string>
+  <key>settings</key>
+  <array>
+
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key><string>#10161D</string>
+        <key>foreground</key><string>#E8EEF4</string>
+        <key>caret</key><string>#FF4D4D</string>
+        <key>lineHighlight</key><string>#1C2530</string>
+        <key>selection</key><string>#2A3541</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Comment</string>
+      <key>scope</key><string>comment, punctuation.definition.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#6E7C8C</string>
+        <key>fontStyle</key><string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>String</string>
+      <key>scope</key><string>string, string.quoted, punctuation.definition.string, meta.preprocessor.string</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#35D07F</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Escape sequences and regex</string>
+      <key>scope</key><string>constant.character.escape, string.regexp, constant.other.character-class</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#7CE3AC</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Numbers and constants</string>
+      <key>scope</key><string>constant.numeric, constant.language, constant.character, constant.other</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF9E9E</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Keyword</string>
+      <key>scope</key><string>keyword, keyword.control, keyword.operator.new, storage, storage.type, storage.modifier</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#FF4D4D</string>
+        <key>fontStyle</key><string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Operator</string>
+      <key>scope</key><string>keyword.operator, punctuation.separator, punctuation.terminator, punctuation.section</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#A7B4C2</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Function name</string>
+      <key>scope</key><string>entity.name.function, meta.function-call, support.function, variable.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#FFFFFF</string>
+        <key>fontStyle</key><string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Types and classes</string>
+      <key>scope</key><string>entity.name.type, entity.name.class, entity.other.inherited-class, support.type, support.class, entity.name.namespace</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF9E9E</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Variables and parameters</string>
+      <key>scope</key><string>variable, variable.parameter, variable.other, meta.definition.variable</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#E8EEF4</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Tag names (HTML, XML)</string>
+      <key>scope</key><string>entity.name.tag, punctuation.definition.tag</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF4D4D</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Attributes and object keys</string>
+      <key>scope</key><string>entity.other.attribute-name, support.type.property-name, meta.object-literal.key</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#7CE3AC</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Preprocessor and annotations</string>
+      <key>scope</key><string>meta.preprocessor, keyword.other.preprocessor, entity.name.function.preprocessor, punctuation.definition.annotation</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#8A97A6</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Diff / patch — removed</string>
+      <key>scope</key><string>markup.deleted, meta.diff.header.from-file</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF4D4D</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Diff / patch — added</string>
+      <key>scope</key><string>markup.inserted, meta.diff.header.to-file</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#35D07F</string></dict>
+    </dict>
+
+    <dict>
+      <key>name</key><string>Invalid</string>
+      <key>scope</key><string>invalid, invalid.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#FFFFFF</string>
+        <key>background</key><string>#7A1F1F</string>
+      </dict>
+    </dict>
+
+  </array>
+  <key>uuid</key>
+  <string>7f3c1a10-9b2e-4d55-8f21-c0de0000cyber</string>
+</dict>
+</plist>
