@@ -31,4 +31,3 @@ alias arcadia-connect="ssh -i $HOME/.ssh/arcadia-runner albat0r@90.79.90.58"
 
 # -- Outils --
 eval "$(zoxide init zsh)"
-eval "$(register-python-argcomplete --no-defaults exegol)"
