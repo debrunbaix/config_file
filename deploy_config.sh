@@ -3,6 +3,15 @@
 CONFIG_PATH="~/config_file"
 
 #
+# KDE
+#
+ln -sf $(CONFIG_PATH)/kde/kdeglobals ~/.config/kdeglobals
+ln -sf $(CONFIG_PATH)/kde/kwinrc ~/.config/kwinrc
+ln -sf $(CONFIG_PATH)/kde/kglobalshortcutsrc ~/.config/kglobalshortcutsrc
+ln -sf $(CONFIG_PATH)/kde/kcminputrc ~/.config/kcminputrc
+ln -sf $(CONFIG_PATH)/kde/plasma-org.kde.plasma.desktop-appletsrc ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+#
 # ALACRITTY
 #
 ln -s $(CONFIG_PATH)/alacritty.toml ~/.config/alacritty/alacritty.toml

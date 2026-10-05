@@ -1,0 +1,5 @@
+[Libinput][1267][12866][VEN_04F3:00 04F3:3242 Mouse]
+NaturalScroll=true
+
+[Libinput][1267][12866][VEN_04F3:00 04F3:3242 Touchpad]
+NaturalScroll=true
