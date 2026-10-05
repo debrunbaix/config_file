@@ -1,3 +1,6 @@
+[Activities][LastVirtualDesktop]
+5e3f1a6a-13bf-4fdc-acb5-191caa77479b=3e0fcca1-b60d-4c47-be65-528e2832985b
+
 [Desktops]
 Id_1=ef09aba6-c76a-433d-95f2-1d980dd098aa
 Id_2=3e0fcca1-b60d-4c47-be65-528e2832985b
@@ -8,6 +11,9 @@ Rows=1
 
 [Plugins]
 slideEnabled=false
+
+[Tiling]
+padding=4
 
 [Tiling][29d4b10f-cc19-4745-b544-7456dd878c25][7324a2e0-e79b-4b66-a1aa-d7fe4988fd5e]
 padding=4
@@ -31,6 +37,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][3e0fcca1-b60d-4c47-be65-528e2832985b][ceae7986-bf85-45a3-99c5-259e9fabf1d8]
 padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][593b6bf3-43ad-5641-84d3-c7b9eb546136]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][74aaa523-0033-4852-b8dd-387df9afabcd][7324a2e0-e79b-4b66-a1aa-d7fe4988fd5e]
@@ -58,4 +67,4 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]
-Scale=1
+Scale=1.15

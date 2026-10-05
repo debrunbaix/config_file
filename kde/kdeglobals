@@ -134,7 +134,7 @@ ForegroundVisited=155,89,182
 
 [General]
 AccentColor=233,61,88
-ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
+ColorSchemeHash=7b61368c55eaab4075e7b1ae9501f3675b0f830f
 LastUsedCustomAccentColor=233,61,88
 
 [KDE]
@@ -147,6 +147,9 @@ Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
 Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false

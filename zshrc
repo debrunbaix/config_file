@@ -13,7 +13,7 @@ path=(
 
 # -- Oh My Zsh --
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="duellj"
+ZSH_THEME="debrunbaix"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 fpath+=("${ZDOTDIR:-$HOME}/.zsh_functions")
 source "$ZSH/oh-my-zsh.sh"
@@ -28,6 +28,3 @@ alias e="exit"
 alias ipa="ip -br -c a"
 alias v="nvim"
 alias arcadia-connect="ssh -i $HOME/.ssh/arcadia-runner albat0r@90.79.90.58"
-
-# -- Outils --
-eval "$(zoxide init zsh)"
