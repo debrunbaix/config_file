@@ -1,0 +1,12 @@
+book-assembly: 
+    type: Book
+    title: Modern X86 Assembly Language Programming
+    author: Daniel Kusswurm
+    volume: 3
+    page-total: 700
+    date: 2023-09-09
+
+Oteria:
+    type: Web
+    title: Site web d'Oteria
+    url: https://www.oteria.fr/
