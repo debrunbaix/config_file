@@ -22,8 +22,8 @@ NO_BOLD='%b'
 # ------------------------------------------------------------
 
 PROMPT="
-${RED}${BOLD}┌─[${RESET}${WHITE}%n${RED}@${RESET}${WHITE}%m${RED}${BOLD}]${NO_BOLD}${RED}${BOLD} - [${RESET}${WHITE}%~${RED}${BOLD}]${NO_BOLD}${RED}${NO_BOLD}
-${RESET}${RED}${BOLD}└─[${WHITE}\$${RED}${BOLD}]${RESET} "
+${RED}${BOLD}┌─[${RESET}${WHITE}%n${RED}@${RESET}${WHITE}%m${RED}${BOLD}]${NO_BOLD}${RED}${BOLD} - [${RESET}${WHITE}%~${RED}${BOLD}]${NO_BOLD}${RED}
+${RESET}${RED}${BOLD}└─[${WHITE}\$${RED}${BOLD}]${NO_BOLD}${RESET} "
 
 
 # ------------------------------------------------------------
@@ -32,11 +32,3 @@ ${RESET}${RED}${BOLD}└─[${WHITE}\$${RED}${BOLD}]${RESET} "
 # ------------------------------------------------------------
 
 PS2="${RED}${BOLD}>${RESET} "
-
-
-# ------------------------------------------------------------
-# Prompt à droite
-# Heure actuelle
-# ------------------------------------------------------------
-
-RPROMPT="${RED}[${WHITE}%*${RED}]${RESET}"

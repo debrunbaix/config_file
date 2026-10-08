@@ -15,7 +15,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,
 Enable Touchpad=Touchpad On,Touchpad On,
-Toggle Touchpad=Touchpad Toggle\t\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,
 _k_friendly_name=Touchpad
 
 [kmix]
@@ -167,10 +167,10 @@ Window Quick Tile Top Right=none,,Quick Tile Window to the Top Right
 Window Raise=none,,Raise Window
 Window Resize=none,,Resize Window
 Window Restore=Meta+Backspace,Meta+Backspace,Restore Window
-Window Shade=,,Shade Window
+Window Shade=none,,Shade Window
 Window Shrink Horizontal=none,,Shrink Window Horizontally
 Window Shrink Vertical=none,,Shrink Window Vertically
-Window to Desktop 1=none,,Window to Desktop 1
+Window to Desktop 1=Meta+Ctrl+&,,Window to Desktop 1
 Window to Desktop 10=none,,Window to Desktop 10
 Window to Desktop 11=none,,Window to Desktop 11
 Window to Desktop 12=none,,Window to Desktop 12
@@ -181,7 +181,7 @@ Window to Desktop 16=none,,Window to Desktop 16
 Window to Desktop 17=none,,Window to Desktop 17
 Window to Desktop 18=none,,Window to Desktop 18
 Window to Desktop 19=none,,Window to Desktop 19
-Window to Desktop 2=none,,Window to Desktop 2
+Window to Desktop 2=Meta+Ctrl+É,,Window to Desktop 2
 Window to Desktop 20=none,,Window to Desktop 20
 Window to Desktop 21=none,none,Window to Desktop 21
 Window to Desktop 22=none,none,Window to Desktop 22

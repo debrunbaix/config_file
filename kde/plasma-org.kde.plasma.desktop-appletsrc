@@ -18,16 +18,19 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][22][Configuration]
+PreloadWeight=60
 popupHeight=451
 popupWidth=560
 
 [Containments][2][Applets][22][Configuration][Appearance]
 dateFormat=isoDate
+fontFamily=Noto Sans
 fontWeight=400
+use24hFormat=2
 
 [Containments][2][Applets][22][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][23]
 immutability=1
@@ -149,6 +152,7 @@ immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][2][Applets][7][Configuration]
+PreloadWeight=70
 SystrayContainmentId=24
 
 [Containments][2][Applets][7][General]
@@ -173,6 +177,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][24][Applets][25][Configuration]
+PreloadWeight=60
+
 [Containments][24][Applets][26]
 immutability=1
 plugin=org.kde.plasma.vault
@@ -180,6 +187,9 @@ plugin=org.kde.plasma.vault
 [Containments][24][Applets][27]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][24][Applets][27][Configuration]
+PreloadWeight=55
 
 [Containments][24][Applets][28]
 immutability=1
@@ -193,7 +203,11 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][24][Applets][30][Configuration]
+PreloadWeight=65
+
 [Containments][24][Applets][30][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][24][Applets][31]
@@ -224,17 +238,36 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][24][Applets][38][Configuration]
+PreloadWeight=75
+
 [Containments][24][Applets][39]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][24][Applets][39][Configuration]
+PreloadWeight=60
 
 [Containments][24][Applets][40]
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][24][Applets][40][Configuration]
+PreloadWeight=42
+
 [Containments][24][Applets][41]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][24][Applets][41][Configuration]
+PreloadWeight=62
+
+[Containments][24][Applets][42]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][24][Applets][42][Configuration]
+PreloadWeight=7
 
 [Containments][24][General]
 extraItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.kupapplet,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.brightness
@@ -242,6 +275,7 @@ knownItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.vaul
 
 [Containments][37]
 ItemGeometries-1670x1043=
+ItemGeometries-2226x1252=
 ItemGeometriesHorizontal=
 activityId=5e3f1a6a-13bf-4fdc-acb5-191caa77479b
 formfactor=0
@@ -252,11 +286,39 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][37][General]
-positions={"1670x1043":[]}
+positions={"1670x1043":[],"2226x1252":[]}
 
 [Containments][37][Wallpaper][org.kde.image][General]
-Image=/home/s0ngb1rd/config_file/wallpaper/burning_ship_night.jpg
+Image=/usr/share/desktop-base/homeworld-theme/wallpaper/
 SlidePaths=/usr/share/wallpapers/
+
+[Containments][43]
+activityId=5e3f1a6a-13bf-4fdc-acb5-191caa77479b
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][43][General]
+positions={"1252x2226":[],"2226x1252":[]}
+
+[Containments][43][Wallpaper][org.kde.image][General]
+Image=/usr/share/desktop-base/homeworld-theme/wallpaper/
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][44]
+activityId=5e3f1a6a-13bf-4fdc-acb5-191caa77479b
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][44][General]
+positions={"1252x2226":[],"2226x1252":[]}
 
 [Containments][8][Applets][23][Configuration]
 PreloadWeight=42
